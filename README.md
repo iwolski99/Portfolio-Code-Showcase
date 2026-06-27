@@ -2,21 +2,7 @@
 
 > Curated public snippets from `PuzzleForge`, an offline-first mobile chess tactics trainer built with Expo React Native.
 
-```mermaid
-flowchart TD
-    A[Lichess puzzle CSV] --> B[Preprocessing scripts]
-    B --> C[Compact JSON puzzle assets]
-    C --> D[React Native / Expo UI]
-    D --> E[Custom hooks + chess.js]
-    E --> F[AsyncStorage persistence]
-    E --> G[Audio + haptics]
-    E --> H[Notifications]
-    E --> I[RevenueCat donations]
-    E --> J[Crashlytics]
-
-    K[Expo Go] -. guarded native access .-> I
-    K -. guarded native access .-> J
-```
+![PuzzleForge architecture diagram](./pf-diagram.png)
 
 ## Why this repository exists
 
